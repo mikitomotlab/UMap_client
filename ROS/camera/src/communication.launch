@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="camera" name="communication_vcuda" type="communication_vcuda.py" />
+    <node pkg="camera" name="result" type="result.py" output="screen" />
+</launch>
+
+
